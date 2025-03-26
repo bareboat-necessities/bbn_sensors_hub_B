@@ -116,6 +116,11 @@ Examples:
 - ADS1115  https://docs.m5stack.com/en/unit/vmeter
 - INA219   https://www.adafruit.com/product/904
 
+#### Getting 3.3v from m5stack
+
+You solder a wire to +3.3v pad of m5stack portABC. That wire passes under m5atom connected to portABC via
+specially designed gap.
+
 #### Resistive boat sensors
 
 There are two types of commonly used resistance based sensors:
