@@ -64,7 +64,7 @@ Voltage divider circuit consists of:
 
 - Resistor of a known resistance
 - Sensor's resistor for which resistance is to be measured
-- Known reference voltage (3.3v or 5v for esp32 case depending on the pin used) applied to those two resistors connected in series
+- Known reference voltage (3.3v for esp32 case, use 3.3v pin) applied to those two resistors connected in series
 
 Voltage is measured on ADC (analog) input pin of esp32 connected in between those two resistors.
 
